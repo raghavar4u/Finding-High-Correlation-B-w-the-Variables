@@ -1,0 +1,7 @@
+> highcorr(iris)
+          Var1         Var2 Correlation
+1 Petal.Length  Petal.Width   0.9628654
+2 Sepal.Length Petal.Length   0.8717538
+3 Sepal.Length  Petal.Width   0.8179411
+4  Sepal.Width Petal.Length  -0.4284401
+> 
