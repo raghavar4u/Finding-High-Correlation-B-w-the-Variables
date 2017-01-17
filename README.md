@@ -12,7 +12,8 @@ N = Negatively correlated variables
 
 Example:
 
-highcorr(mtcars)
+#### highcorr(mtcars)
+
    Var1 Var2 Correlation
 1   cyl disp   0.9020329
 2  disp   wt   0.8879799
@@ -60,7 +61,7 @@ highcorr(mtcars)
 
 ### Typ = Postive 
 
-highcorr(mtcars,typ='P')
+#### highcorr(mtcars,typ='P')
    Var1 Var2 Correlation
 1   cyl disp   0.9020329
 2  disp   wt   0.8879799
@@ -86,7 +87,7 @@ highcorr(mtcars,typ='P')
 ## Limt 
 Setting the correlation limit
 
- highcorr(mtcars,typ='P',limit=0.8)
+ #### highcorr(mtcars,typ='P',limit=0.8)
   Var1 Var2 Correlation
 1  cyl disp   0.9020329
 2 disp   wt   0.8879799
@@ -96,7 +97,7 @@ Setting the correlation limit
 
 Finading correlation W.R.To Variable wise 
 
-highcorr(mtcars,typ='B',limit=0.4,Variable1="mpg")
+#### highcorr(mtcars,typ='B',limit=0.4,Variable1="mpg")
    Var1 Var2 Correlation
 3   mpg   wt  -0.8676594
 4   mpg  cyl  -0.8521620
