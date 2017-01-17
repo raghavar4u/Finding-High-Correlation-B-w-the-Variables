@@ -1,4 +1,4 @@
-# Finding-High-Correlation-B-w-the-Variables
+# Finding-High-Correlation-between-the-Variables
 Easiest way to identify the correlation among the variables 
 
 # Function in deatil 
