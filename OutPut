@@ -1,4 +1,4 @@
-> # highcorr(iris)
+> highcorr(iris)
           Var1         Var2 Correlation
 1 Petal.Length  Petal.Width   0.9628654
 2 Sepal.Length Petal.Length   0.8717538
@@ -6,7 +6,7 @@
 4  Sepal.Width Petal.Length  -0.4284401
 > 
 
-> # highcorr(mtcars)
+> highcorr(mtcars)
    Var1 Var2 Correlation
 1   cyl disp   0.9020329
 2  disp   wt   0.8879799
@@ -50,4 +50,53 @@
 40 drat   vs   0.4402785
 41 disp qsec  -0.4336979
 42   wt carb   0.4276059
+43  mpg qsec   0.4186840
+
+
+> highcorr(mtcars,typ='P')
+   Var1 Var2 Correlation
+1   cyl disp   0.9020329
+2  disp   wt   0.8879799
+3   cyl   hp   0.8324475
+4    am gear   0.7940588
+5  disp   hp   0.7909486
+6   cyl   wt   0.7824958
+7    hp carb   0.7498125
+8  qsec   vs   0.7445354
+9  drat   am   0.7127111
+10 drat gear   0.6996101
+11  mpg drat   0.6811719
+12  mpg   vs   0.6640389
+13   hp   wt   0.6587479
+14  mpg   am   0.5998324
+15  cyl carb   0.5269883
+16  mpg gear   0.4802848
+17 drat   vs   0.4402785
+18   wt carb   0.4276059
+19  mpg qsec   0.4186840
+
+
+
+
+> highcorr(mtcars,typ='P',limit=0.8)
+  Var1 Var2 Correlation
+1  cyl disp   0.9020329
+2 disp   wt   0.8879799
+3  cyl   hp   0.8324475
+
+
+
+
+
+> highcorr(mtcars,typ='B',limit=0.4,Variable1="mpg")
+   Var1 Var2 Correlation
+3   mpg   wt  -0.8676594
+4   mpg  cyl  -0.8521620
+5   mpg disp  -0.8475514
+11  mpg   hp  -0.7761684
+23  mpg drat   0.6811719
+24  mpg   vs   0.6640389
+27  mpg   am   0.5998324
+34  mpg carb  -0.5509251
+38  mpg gear   0.4802848
 43  mpg qsec   0.4186840
