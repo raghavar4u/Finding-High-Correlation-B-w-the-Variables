@@ -1,7 +1,7 @@
 # Finding-High-Correlation-B-w-the-Variables
 Easiest way to identify the correlation among the variables 
 
-## Function in deatil 
+# Function in deatil 
 
 # Type 
 B = Both Postive and negative correlation 
