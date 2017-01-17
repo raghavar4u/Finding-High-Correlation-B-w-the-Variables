@@ -3,7 +3,7 @@ Easiest way to identify the correlation among the variables
 
 # Function in deatil 
 
-## Type 
+## Typ = Type 
 Default = B
 
 B = Both Postive and negative correlation 
@@ -83,7 +83,7 @@ highcorr(mtcars,typ='P')
 19  mpg qsec   0.4186840
 
 
-## Limt 
+# Limt 
 Setting the correlation limit
 
  highcorr(mtcars,typ='P',limit=0.8)
@@ -92,7 +92,7 @@ Setting the correlation limit
 2 disp   wt   0.8879799
 3  cyl   hp   0.8324475
 
-## Varaible1
+# Varaible1
 
 Finading correlation W.R.To Variable wise 
 
