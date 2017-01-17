@@ -1,4 +1,4 @@
-> highcorr(iris)
+> # highcorr(iris)
           Var1         Var2 Correlation
 1 Petal.Length  Petal.Width   0.9628654
 2 Sepal.Length Petal.Length   0.8717538
@@ -6,7 +6,7 @@
 4  Sepal.Width Petal.Length  -0.4284401
 > 
 
-> highcorr(mtcars)
+> # highcorr(mtcars)
    Var1 Var2 Correlation
 1   cyl disp   0.9020329
 2  disp   wt   0.8879799
