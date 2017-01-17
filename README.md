@@ -111,4 +111,21 @@ Finading correlation W.R.To Variable wise
 43  mpg qsec   0.4186840
 
 
+> highcorr(mtcars,typ='P',limit=0.8)
+  Var1 Var2 Correlation
+1  cyl disp   0.9020329
+2 disp   wt   0.8879799
+3  cyl   hp   0.8324475
+> highcorr(mtcars,typ='B',limit=0.4,Variable1="mpg")
+   Var1 Var2 Correlation
+3   mpg   wt  -0.8676594
+4   mpg  cyl  -0.8521620
+5   mpg disp  -0.8475514
+11  mpg   hp  -0.7761684
+23  mpg drat   0.6811719
+24  mpg   vs   0.6640389
+27  mpg   am   0.5998324
+34  mpg carb  -0.5509251
+38  mpg gear   0.4802848
+43  mpg qsec   0.4186840
 
